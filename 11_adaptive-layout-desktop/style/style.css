@@ -1,0 +1,57 @@
+/* fonts */
+
+@font-face {
+  font-family: '';
+  src: url('') format('woff2'), url('') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* common specification */
+
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --body-color: #E5E5E5;
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1770px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--body-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
